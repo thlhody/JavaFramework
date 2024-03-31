@@ -1,4 +1,4 @@
-package colectii.stream;
+package colectiiStream;
 
 import org.testng.annotations.Test;
 import java.util.*;
@@ -20,7 +20,7 @@ public class StreamExample {
         cuvinte.put("Aloha", 5);
         cuvinte.put("Plane", 5);
         cuvinte.put("Suma", 4);
-        cuvinte.put("colectii/stream", 6);
+        cuvinte.put("colectiiStream", 6);
         cuvinte.put("example", 7);
         streamExempluMap(cuvinte);
         // arrays

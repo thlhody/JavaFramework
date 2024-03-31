@@ -34,10 +34,11 @@ public class Masina {
     //ca sa oferim vizibilitate proprietatile in alte clase apelam la conceptul getter/setter
 
 
-    //polimorfism - conceptul prin care o metoda poate avea implementari diferita
+    //polimorfism - conceptul prin care o metoda poate avea implementari diferite
     //polimorfismul este de 2 feluri dinamic(override) si static(overload)
     //polimorfismul dinamic - intr-o ierarhie de clase obtinute prin mostenire o metoda poate avea implementari diferite
     //                      - se regaseste tot timpul in procesul de mostenire.
+    //polimorfismul static - cel mai des intalnit conceptul;
 
     public Masina(String marca, String model, String culoare, String carburant, Integer anProd, Integer capacitateCilindrica) {
         this.marca = marca;
